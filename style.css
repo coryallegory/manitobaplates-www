@@ -1,0 +1,271 @@
+/* DEFAULT SETTINGS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+outline: 0;
+}
+body {
+line-height: 150%;
+color: black;
+background: white;
+}
+ol, ul {
+list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+border-collapse: separate;
+border-spacing: 0;
+}
+caption, th, td {
+text-align: left;
+font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: "";
+}
+blockquote, q {
+quotes: "" "";
+}
+
+/* added by me */
+#scroll {
+	position:absolute;
+	top:0;
+	bottom:-0.1px;
+	width:1em;
+	z-index:-1;
+}
+
+p {
+	margin-top: 1.3em;
+}
+
+hr {
+	border: 0px;
+	color: black;
+	background-color: black;
+	height: 1px;
+	width: 100%;
+}
+
+/*
+############################################################
+*/
+
+body {
+	font: 12px verdana;
+	color: #333333;
+	background: url(images/tirebgfade.gif) #222222 0px 15px repeat-x;
+}
+
+#container {
+	margin: auto;
+	width: 750px;
+	background: #222222;
+	padding: 15px 10px 10px 10px;
+}
+
+#title {
+	background-color: #222222;
+	color: orange;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 10px 0px;
+	font-size: 48px;
+	font-weight: bolder;
+	border: solid #4B1C00;
+	border-width: 2px 0px 2px 0px;
+}
+
+#banner {
+	background-color: black;
+}
+
+#menu {
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	background-color: black;
+	overflow:hidden;
+	font-weight: bolder;
+}
+
+.menulink, .menulink a:link, .menulink a:visited, .menulink a:active, .menulink a:hover {
+	color: white;
+}
+.selected, .selected a:link, .selected a:visited, .selected a:active, .selected a:hover {
+	color: #C42E00;
+}
+.menulink, .selected {
+	text-align: center;
+	width: 16.6%;
+	float: left;
+}
+.menulink a:link, .menulink a:visited, .menulink a:active,
+.selected a:link, .selected a:visited, .selected a:active
+{
+	text-decoration: none;
+}
+.menulink a:hover, .selected a:hover {
+	text-decoration: underline;
+}
+
+#content {
+	border: solid #222222 1px;
+	background: #F6F6F6;
+	padding: 20px 20px 40px 20px;
+	overflow:hidden;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+#submenu {
+	width: 140px;
+	float: left;
+	border-right: solid #C42E00 1px;
+	font-size: 12px;
+	padding: 0px 10px 25px 0px;
+}
+
+#meat {
+	width: 75%;
+	float: right;
+	padding-top: 10px;
+}
+
+#submenu a:link, #submenu a:visited, #submenu a:active, #submenu a:hover {
+
+}
+#meat a:link, #meat a:visited, #meat a:active, #meat a:hover {
+	color: #C42E00;
+}
+#submenu a:link, #submenu a:visited, #submenu a:active
+{
+	text-decoration: none;
+}
+#submenu a:hover,
+#meat a:hover, #meat a:link, #meat a:visited, #meat a:active {
+	text-decoration: underline;
+}
+
+.sm_title {
+	font-size: 18px;
+	font-weight: bolder;
+	color: #C42E00;
+	margin-bottom: 10px;
+}
+
+.sm_subtitle, .sm_subtitle_selected {
+	margin: 0px 0px 10px 5px;
+}
+.sm_subtitle a:link, .sm_subtitle a:visited, .sm_subtitle a:active, .sm_subtitle a:hover {
+	color: #808080;
+}
+.sm_subtitle_selected a:link, .sm_subtitle_selected a:visited, .sm_subtitle_selected a:active, .sm_subtitle_selected a:hover {
+	color: #C42E00;
+}
+
+
+
+.collectionpic {
+	margin: 5px;
+	padding: 3px;
+	border: solid #CCCCCC 1px;
+	text-align: center;
+	float: left;
+	background: #EEEEEE;
+}
+
+
+#foot {
+	font-size: 10px;
+	text-align: left;
+	margin-bottom: 5px;
+	color: #CCCCCC;
+}
+
+/*
+############################################################
+*/
+
+.highslide {
+	cursor: url(highslide/graphics/zoomin.cur), pointer;
+	outline: none;
+}
+.highslide-active-anchor img {
+	visibility: hidden;
+}
+.highslide img {
+	border: 2px solid gray;
+}
+.highslide:hover img {
+	border: 2px solid silver;
+}
+
+.highslide-wrapper {
+	background: white;
+}
+.highslide-image {
+}
+.highslide-image-blur {
+}
+.highslide-caption {
+	display: none;
+    
+	border-bottom: 1px solid white;
+	font-family: Verdana, Helvetica;
+	font-size: 10pt;
+	padding: 5px;
+	background-color: silver;
+}
+.highslide-loading {
+    display: block;
+	color: black;
+	font-size: 8pt;
+	font-family: sans-serif;
+	font-weight: bold;
+    text-decoration: none;
+	padding: 2px;
+	border: 1px solid black;
+    background-color: white;
+    
+    padding-left: 22px;
+    background-image: url(highslide/graphics/loader.white.gif);
+    background-repeat: no-repeat;
+    background-position: 3px 1px;
+}
+
+a.highslide-full-expand {
+	background: url(highslide/graphics/fullexpand.gif) no-repeat;
+	display: block;
+	margin: 0 10px 10px 0;
+	width: 34px;
+	height: 34px;
+}
+
+/* These must always be last */
+.highslide-display-block {
+    display: block;
+}
+.highslide-display-none {
+    display: none;
+}
